@@ -27,7 +27,7 @@ app.get('/numbers/:numberid', (req, res) => {
         avg
       });
     } else {
-      // Handle errors or timeouts
+      
       res.status(500).send('Error fetching numbers');
     }
   });
